@@ -3,7 +3,10 @@
   "description": "Date format library, PHP style",
   "version": "0.1.0",
   "author": "Frederik Hannibal <frederik@backhand.dk>",
-  "repository": "git://github.com/backhand/node-dateutil",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/backhand/node-dateutil"
+  },
   "main": "index",
   "scripts": {
     "test": "nodeunit test/dateutil.test.js"
